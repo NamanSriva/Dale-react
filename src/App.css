@@ -1,0 +1,23 @@
+body {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 1800px;
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0; /* Ensure there is no default margin */
+  font-family: Arial, sans-serif;
+  -ms-overflow-style: none;  /* Hide the scrollbar in Internet Explorer and Edge */
+ 
+    /* Optional: set a global font family */
+}
+body::-webkit-scrollbar {
+  display: none; 
+  scrollbar-width: none;/* Hide the scrollbar in webkit-based browsers */
+}
+
+
+.app {
+  display: flex;
+  height: 100%;
+}

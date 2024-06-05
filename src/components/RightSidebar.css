@@ -1,0 +1,70 @@
+.right-sidebar {
+    width: 20%;
+    padding: 20px;
+    position: fixed;
+    margin-left: 1150px;
+  }
+  
+  .become-seller {
+    width: 250px;
+    height: 70px;
+    padding: 10px;
+    background: #88c2bb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    margin: 20px 0;
+    display: flex;
+  }
+  
+  .tab {
+    width: 39%;
+    padding: 10px;
+    margin-right: 4%;
+    background: #F5F5F5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .artist-list {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .artist {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .artist-list-container {
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds container height */
+    max-height: calc(100vh - 140px);
+    width: 300px; /* Adjust max height as needed */
+  }
+  .artist-info {
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+  }
+  .artist-name {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #f0f0f0;
+  }
+  .artist-image {
+    width: 48px;
+    height: 48px; /* Adjust width as needed */
+ /* Make the height adjust automatically */
+    
+   
+    margin-top: 50px; /* Add some spacing between image and info */
+  }
+  
+  

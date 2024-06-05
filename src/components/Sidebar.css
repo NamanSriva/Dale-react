@@ -1,0 +1,84 @@
+.sidebar {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 300px; /* Adjust as necessary */
+    height: 100%; /* Full height of the viewport */
+   /* Sidebar background color */
+    color: #060505; /* Text color */
+    margin-right: 10%;
+  }
+  
+  .upper-sidebar {
+    width: 260px;
+height: 80px;
+margin-bottom: 1rem;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+  }
+  
+  .logo {
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .logo h2 {
+    margin: 0;
+    color: black;
+    width: 89px;
+height: 34px;
+text-align: left;
+font: normal normal normal 32px/44px Mongolian Baiti;
+letter-spacing: 0px;
+color: #101010;
+opacity: 1;
+  }
+  
+  .lower-sidebar {
+    width: 260px;
+height: 707px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+  }
+  
+  .notifications {
+    padding: 20px;
+  }
+  
+  .notifications h3 {
+    margin-top: 0;
+  }
+  
+  .notifications ul {
+    list-style-type: none;
+    padding: 20px;
+
+}
+  
+  .notifications ul li {
+    margin-bottom: 50px;
+  }
+  
+  .notifications ul li a {
+    color: #080808;
+    text-decoration: none;
+  }
+  
+  .notifications button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555; /* Logout button background color */
+    color: #52bff9; /* Logout button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .notifications button:hover {
+    background-color: #666; /* Hover state color */
+  }
+  

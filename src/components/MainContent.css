@@ -1,0 +1,145 @@
+
+
+.main-content {
+    padding: 20px;
+    margin-left: 400px;
+
+  }
+  .top-bar-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    height: 80px;
+    border: none;
+    border-radius: 4px;
+    flex-grow: 1;
+    padding-right: 70px; 
+  }
+  
+  .filter-button {
+   display: flex;
+   position: absolute;
+    right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  .filter-button img.filter-icon {
+    width: 16px; 
+    height: 16px;
+}
+  
+  .posts {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%; 
+    margin-right: 15px;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .social {
+    display: flex;
+    margin: 2%;
+  }
+  
+  .social span {
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  .icon-text {
+    margin-left: 5px; 
+  }
+  .more-options {
+    margin-left: auto; 
+  }
+  .read-more {
+    color: red; 
+  }  
+
+
+.slider {
+    margin-top: 20px;
+    overflow-x: auto;
+    max-width: 630px;
+    background-color: #ffffff; 
+
+  }
+  .slider::-webkit-scrollbar {
+    display: none; 
+    scrollbar-width: none;/* Hide the scrollbar in webkit-based browsers */
+  }
+  
+  .carousel {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slide {
+    margin-right:50px;
+   
+  }
+  
+  .slide img {
+    max-width: 252px; 
+    height: 180px;
+    margin-right: 10px; 
+  }
+  
+  .slide > div {
+    flex-grow: 1; 
+  }
+  
+  .rating {
+    margin-left: 50px; 
+  }
+  .con{
+    display: flex;
+    align-items: center;
+    
+  }
+  .details h3 {
+    margin-right: 10px;
+  }
